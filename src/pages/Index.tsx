@@ -5,53 +5,53 @@ import headshot from "@/assets/headshot.png";
 const navItems = ["About", "Research", "Projects"];
 
 const publications = [
-  {
-    title: "Your Publication Title Goes Here",
-    authors: "Your Name, Co-Author Name",
-    venue: "Journal or Conference Name (2025)",
-    tags: ["Topic 1", "Topic 2"],
-    link: "#",
-  },
-  {
-    title: "Another Publication Title",
-    authors: "Co-Author Name, Your Name",
-    venue: "Conference Proceedings (2024)",
-    tags: ["Topic 3", "Topic 1"],
-    link: "#",
-  },
-];
+{
+  title: "Your Publication Title Goes Here",
+  authors: "Your Name, Co-Author Name",
+  venue: "Journal or Conference Name (2025)",
+  tags: ["Topic 1", "Topic 2"],
+  link: "#"
+},
+{
+  title: "Another Publication Title",
+  authors: "Co-Author Name, Your Name",
+  venue: "Conference Proceedings (2024)",
+  tags: ["Topic 3", "Topic 1"],
+  link: "#"
+}];
+
 
 const projects = [
-  {
-    title: "Project Alpha",
-    description:
-      "A brief description of your project — what it does, why it matters, and what technologies or methods you used.",
-    tags: ["React", "TypeScript", "Design"],
-    link: "#",
-  },
-  {
-    title: "Project Beta",
-    description:
-      "Another project description. Keep it concise but informative.",
-    tags: ["Python", "ML", "Research"],
-    link: "#",
-  },
-  {
-    title: "Project Gamma",
-    description:
-      "A third project. Could be an open-source tool, a research prototype, or a creative side project.",
-    tags: ["Open Source", "API"],
-    link: "#",
-  },
-];
+{
+  title: "Project Alpha",
+  description:
+  "A brief description of your project — what it does, why it matters, and what technologies or methods you used.",
+  tags: ["React", "TypeScript", "Design"],
+  link: "#"
+},
+{
+  title: "Project Beta",
+  description:
+  "Another project description. Keep it concise but informative.",
+  tags: ["Python", "ML", "Research"],
+  link: "#"
+},
+{
+  title: "Project Gamma",
+  description:
+  "A third project. Could be an open-source tool, a research prototype, or a creative side project.",
+  tags: ["Open Source", "API"],
+  link: "#"
+}];
+
 
 const fade = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({
     opacity: 1,
     y: 0,
-    transition: { duration: 0.7, delay: i * 0.1, ease: "easeOut" as const },
-  }),
+    transition: { duration: 0.7, delay: i * 0.1, ease: "easeOut" as const }
+  })
 };
 
 const Index = () => {
@@ -64,19 +64,19 @@ const Index = () => {
             Your Name
           </a>
           <div className="flex items-center gap-8">
-            {navItems.map((item) => (
-              <a
-                key={item}
-                href={`#${item.toLowerCase()}`}
-                className="text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors duration-500"
-              >
+            {navItems.map((item) =>
+            <a
+              key={item}
+              href={`#${item.toLowerCase()}`}
+              className="text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors duration-500">
+              
                 {item}
               </a>
-            ))}
+            )}
             <a
               href="#"
-              className="text-xs tracking-[0.15em] uppercase border border-foreground text-foreground px-4 py-2 hover:bg-foreground hover:text-background transition-all duration-500"
-            >
+              className="text-xs tracking-[0.15em] uppercase border border-foreground text-foreground px-4 py-2 hover:bg-foreground hover:text-background transition-all duration-500">
+              
               Resume
             </a>
           </div>
@@ -89,15 +89,15 @@ const Index = () => {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" as const }}
-          className="flex flex-col items-center"
-        >
+          className="flex flex-col items-center">
+          
           {/* Headshot placeholder */}
           <div className="w-36 h-44 rounded-[50%] bg-card border border-border overflow-hidden mb-10">
             <img src={headshot} alt="Headshot" className="w-full h-full object-cover" />
           </div>
 
           <h1 className="font-display text-5xl md:text-7xl font-light text-foreground mb-4 leading-tight">
-            Your Name
+            ARIELLA SHULMAN 
           </h1>
           <p className="font-body text-base text-muted-foreground max-w-md mb-10 leading-relaxed">
             Your Research Focus · Lab Name, University
@@ -106,14 +106,14 @@ const Index = () => {
           <div className="flex gap-4 mb-8">
             <a
               href="#research"
-              className="text-xs tracking-[0.15em] uppercase bg-foreground text-background px-6 py-3 hover:opacity-90 transition-opacity"
-            >
+              className="text-xs tracking-[0.15em] uppercase bg-foreground text-background px-6 py-3 hover:opacity-90 transition-opacity">
+              
               View My Work
             </a>
             <a
               href="mailto:you@email.com"
-              className="text-xs tracking-[0.15em] uppercase border border-foreground text-foreground px-6 py-3 hover:bg-foreground hover:text-background transition-all duration-500"
-            >
+              className="text-xs tracking-[0.15em] uppercase border border-foreground text-foreground px-6 py-3 hover:bg-foreground hover:text-background transition-all duration-500">
+              
               Get in Touch
             </a>
           </div>
@@ -147,8 +147,8 @@ const Index = () => {
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
             variants={fade}
-            custom={0}
-          >
+            custom={0}>
+            
             <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground">
               About
             </p>
@@ -159,8 +159,8 @@ const Index = () => {
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
             variants={fade}
-            custom={1}
-          >
+            custom={1}>
+            
             <h2 className="font-display text-3xl md:text-4xl font-light text-foreground leading-snug mb-10">
               A few words about who I am and what I care about.
             </h2>
@@ -188,17 +188,17 @@ const Index = () => {
             {/* Contact details row */}
             <div className="mt-14 pt-8 border-t border-border grid grid-cols-2 md:grid-cols-3 gap-8">
               {[
-                { label: "Email", value: "you@email.com" },
-                { label: "Location", value: "City, Country" },
-                { label: "Scholar", value: "Google Scholar →" },
-              ].map((item) => (
-                <div key={item.label}>
+              { label: "Email", value: "you@email.com" },
+              { label: "Location", value: "City, Country" },
+              { label: "Scholar", value: "Google Scholar →" }].
+              map((item) =>
+              <div key={item.label}>
                   <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-1">
                     {item.label}
                   </p>
                   <p className="text-sm text-foreground">{item.value}</p>
                 </div>
-              ))}
+              )}
             </div>
           </motion.div>
         </div>
@@ -213,33 +213,33 @@ const Index = () => {
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
             variants={fade}
-            custom={0}
-          >
+            custom={0}>
+            
             <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground">
               Publications
             </p>
           </motion.div>
           <div className="lg:col-span-8 space-y-0">
-            {publications.map((pub, i) => (
-              <motion.a
-                key={i}
-                href={pub.link}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fade}
-                custom={i + 1}
-                className="block py-8 border-b border-border group"
-              >
+            {publications.map((pub, i) =>
+            <motion.a
+              key={i}
+              href={pub.link}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fade}
+              custom={i + 1}
+              className="block py-8 border-b border-border group">
+              
                 <div className="flex flex-wrap gap-2 mb-3">
-                  {pub.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="text-[10px] tracking-[0.15em] uppercase font-medium bg-card text-muted-foreground px-3 py-1 rounded-full"
-                    >
+                  {pub.tags.map((tag) =>
+                <span
+                  key={tag}
+                  className="text-[10px] tracking-[0.15em] uppercase font-medium bg-card text-muted-foreground px-3 py-1 rounded-full">
+                  
                       {tag}
                     </span>
-                  ))}
+                )}
                 </div>
                 <h3 className="font-display text-xl md:text-2xl font-normal text-foreground group-hover:text-primary transition-colors duration-500 mb-2">
                   {pub.title}
@@ -247,7 +247,7 @@ const Index = () => {
                 <p className="text-sm text-muted-foreground mb-1">{pub.authors}</p>
                 <p className="text-sm text-muted-foreground italic">{pub.venue}</p>
               </motion.a>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -261,33 +261,33 @@ const Index = () => {
             whileInView="visible"
             viewport={{ once: true, margin: "-80px" }}
             variants={fade}
-            custom={0}
-          >
+            custom={0}>
+            
             <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground">
               Projects
             </p>
           </motion.div>
           <div className="lg:col-span-8 space-y-8">
-            {projects.map((project, i) => (
-              <motion.a
-                key={i}
-                href={project.link}
-                initial="hidden"
-                whileInView="visible"
-                viewport={{ once: true }}
-                variants={fade}
-                custom={i + 1}
-                className="block bg-card border border-border p-8 group hover:shadow-lg transition-shadow duration-500"
-              >
+            {projects.map((project, i) =>
+            <motion.a
+              key={i}
+              href={project.link}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true }}
+              variants={fade}
+              custom={i + 1}
+              className="block bg-card border border-border p-8 group hover:shadow-lg transition-shadow duration-500">
+              
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag) => (
-                    <span
-                      key={tag}
-                      className="text-[10px] tracking-[0.15em] uppercase font-medium bg-background text-muted-foreground px-3 py-1 rounded-full"
-                    >
+                  {project.tags.map((tag) =>
+                <span
+                  key={tag}
+                  className="text-[10px] tracking-[0.15em] uppercase font-medium bg-background text-muted-foreground px-3 py-1 rounded-full">
+                  
                       {tag}
                     </span>
-                  ))}
+                )}
                 </div>
                 <h3 className="font-display text-2xl md:text-3xl font-light text-foreground group-hover:text-primary transition-colors duration-500 mb-3">
                   {project.title}
@@ -296,7 +296,7 @@ const Index = () => {
                   {project.description}
                 </p>
               </motion.a>
-            ))}
+            )}
           </div>
         </div>
       </section>
@@ -312,8 +312,8 @@ const Index = () => {
           </p>
         </div>
       </footer>
-    </main>
-  );
+    </main>);
+
 };
 
 export default Index;
