@@ -260,7 +260,7 @@ const Index = () => {
       </div>
 
       {/* Projects */}
-      <section id="projects" className="py-32 md:py-44 px-8 md:px-16">
+      <section id="projects" className="py-20 md:py-28 px-8 md:px-16">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16">
           <motion.div
             className="lg:col-span-3"
