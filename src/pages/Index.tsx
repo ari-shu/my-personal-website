@@ -145,9 +145,9 @@ const Index = () => {
             variants={fade}
             custom={1}>
             
-            
-
-            
+            <h2 className="font-display text-3xl md:text-4xl font-light text-foreground leading-snug mb-10">
+              A few words about who I am and what I care about.
+            </h2>
             <div className="space-y-5 text-muted-foreground font-body text-base leading-relaxed">
               <p>
                 Write a paragraph about yourself here. Describe your research
