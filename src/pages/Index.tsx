@@ -109,7 +109,7 @@ const Index = () => {
             ARIELLA SHULMAN 
           </h1>
           <p className="text-muted-foreground max-w-md mb-10 leading-relaxed text-2xl font-mono">
-            AI ETHICS & GOVERNANCE    
+            ai ethics & governance       
           </p>
 
 
