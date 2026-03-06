@@ -289,7 +289,7 @@ const Index = () => {
       <footer className="py-16 px-8 md:px-16 border-t border-border">
         <div className="max-w-6xl mx-auto flex-col text-center gap-4 flex items-center justify-center">
           <p className="text-xs text-muted-foreground tracking-wide">
-            © {new Date().getFullYear()} Your Name
+            © {new Date().getFullYear()} Ariella Shulman
           </p>
           <p className="text-xs text-muted-foreground tracking-wide font-display italic">
             Made with care.
