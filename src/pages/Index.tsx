@@ -303,7 +303,7 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-16 px-8 md:px-16 border-t border-border">
-        <div className="max-w-6xl mx-auto flex flex-col items-center text-center gap-4">
+        <div className="max-w-6xl mx-auto flex-col text-center gap-4 flex items-center justify-center">
           <p className="text-xs text-muted-foreground tracking-wide">
             © {new Date().getFullYear()} Your Name
           </p>
