@@ -161,11 +161,11 @@ const Index = () => {
                 </a>.
               </p>
               <p>
-                Previously, you worked at [Company] where you did [things]. Connect
-                your past experience to your current research direction.
+
+
               </p>
               <p>
-                In your free time, you enjoy [hobbies]. This adds a personal, human touch.
+
               </p>
             </div>
 
