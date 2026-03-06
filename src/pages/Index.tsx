@@ -30,9 +30,9 @@ const projects = [
   link: "#"
 },
 {
-  title: "Project Beta",
+  title: "ai ethics is for everyone",
   description:
-  "Another project description. Keep it concise but informative.",
+  "a grassroots initiative to broaden interdisciplinary engagement with the ai ethics community. designed by the exec team of the cambridge ai ethics society.",
   tags: ["Python", "ML", "Research"],
   link: "#"
 },
