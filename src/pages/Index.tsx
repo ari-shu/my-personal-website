@@ -108,7 +108,7 @@ const Index = () => {
           <h1 className="font-body text-5xl md:text-7xl font-medium text-foreground mb-4 leading-tight tracking-tight">
             ARIELLA SHULMAN 
           </h1>
-          <p className="font-body text-base text-muted-foreground max-w-md mb-10 leading-relaxed">
+          <p className="text-muted-foreground max-w-md mb-10 leading-relaxed text-2xl font-mono">
             AI ETHICS & GOVERNANCE    
           </p>
 
