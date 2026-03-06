@@ -74,11 +74,20 @@ const Index = () => {
               </a>
             )}
             <a
-
               className="text-xs tracking-[0.15em] uppercase border border-foreground text-foreground px-4 py-2 hover:bg-foreground hover:text-background transition-all duration-500" href="https://trustworthyailab.substack.com/">
-              
               BLOG
             </a>
+            <div className="flex items-center gap-4 ml-2 text-muted-foreground">
+              <a href="#" className="hover:text-foreground transition-colors duration-500" aria-label="LinkedIn">
+                <Linkedin className="w-4 h-4" />
+              </a>
+              <a href="#" className="hover:text-foreground transition-colors duration-500" aria-label="GitHub">
+                <Github className="w-4 h-4" />
+              </a>
+              <a href="mailto:you@email.com" className="hover:text-foreground transition-colors duration-500" aria-label="Email">
+                <Mail className="w-4 h-4" />
+              </a>
+            </div>
           </div>
         </div>
       </nav>
@@ -118,17 +127,6 @@ const Index = () => {
             </a>
           </div>
 
-          <div className="flex items-center gap-5 text-muted-foreground mb-6">
-            <a href="#" className="hover:text-foreground transition-colors duration-500" aria-label="LinkedIn">
-              <Linkedin className="w-4 h-4" />
-            </a>
-            <a href="#" className="hover:text-foreground transition-colors duration-500" aria-label="GitHub">
-              <Github className="w-4 h-4" />
-            </a>
-            <a href="mailto:you@email.com" className="hover:text-foreground transition-colors duration-500" aria-label="Email">
-              <Mail className="w-4 h-4" />
-            </a>
-          </div>
 
           <p className="text-sm text-muted-foreground font-body">you@email.com</p>
         </motion.div>
