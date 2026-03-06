@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Github, ChevronDown, User } from "lucide-react";
+import { Mail, Linkedin, Github, ChevronDown } from "lucide-react";
+import headshot from "@/assets/headshot.png";
 
 const navItems = ["About", "Research", "Projects"];
 
