@@ -52,7 +52,7 @@ const Index = () => {
     <main className="bg-background min-h-screen">
       {/* Nav — minimal, left-aligned name, right links */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm">
-        <div className="max-w-6xl mx-auto px-8 md:px-16 h-16 flex items-center justify-between">
+        <div className="max-w-6xl mx-auto px-8 md:px-16 h-16 flex items-center justify-center">
           
 
           
@@ -70,7 +70,7 @@ const Index = () => {
               className="text-xs tracking-[0.15em] uppercase border border-foreground text-foreground px-4 py-2 hover:bg-foreground hover:text-background transition-all duration-500 font-body font-medium" href="https://trustworthyailab.substack.com/" target="_blank" rel="noopener noreferrer">
               BLOG
             </a>
-            <div className="ml-auto text-muted-foreground flex-row flex items-center justify-start gap-[20px]">
+            <div className="text-muted-foreground flex-row flex items-center justify-start gap-[20px]">
               <a href="https://www.linkedin.com/in/ariella-shulman/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors duration-500" aria-label="LinkedIn">
                 <Linkedin className="w-4 h-4" />
               </a>
