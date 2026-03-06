@@ -114,11 +114,11 @@ const Index = () => {
           className="flex flex-col items-center">
           <div className="relative w-64 h-80 mb-10 flex items-center justify-center">
             {/* Headshot clipped to oval, positioned inside the frame */}
-            <div className="absolute inset-0 flex items-center justify-center">
+            <div className="absolute inset-0 flex items-center justify-center overflow-hidden rounded-[50%] m-[8%]">
               <img
                 src={headshot}
                 alt="Headshot"
-                className="w-[90%] h-[90%] object-cover rounded-[50%] scale-125"
+                className="w-full h-full object-cover scale-125"
               />
             </div>
             {/* Frame overlay */}
