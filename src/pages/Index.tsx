@@ -119,12 +119,6 @@ const Index = () => {
               
               View My Work
             </a>
-            <a
-              href="mailto:you@email.com"
-              className="text-xs tracking-[0.15em] uppercase border border-foreground text-foreground px-6 py-3 hover:bg-foreground hover:text-background transition-all duration-500">
-              
-              Get in Touch
-            </a>
           </div>
 
 
