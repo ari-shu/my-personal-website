@@ -77,7 +77,7 @@ const Index = () => {
               className="text-xs tracking-[0.15em] uppercase border border-foreground text-foreground px-4 py-2 hover:bg-foreground hover:text-background transition-all duration-500" href="https://trustworthyailab.substack.com/">
               BLOG
             </a>
-            <div className="flex items-center gap-4 ml-2 text-muted-foreground">
+            <div className="ml-2 text-muted-foreground flex-row flex items-center justify-start gap-[20px]">
               <a href="#" className="hover:text-foreground transition-colors duration-500" aria-label="LinkedIn">
                 <Linkedin className="w-4 h-4" />
               </a>
