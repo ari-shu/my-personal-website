@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,37 +6,38 @@
 
 @layer base {
   :root {
-    --background: 36 25% 97%;
-    --foreground: 220 15% 15%;
+    --background: 40 20% 96%;
+    --foreground: 30 10% 15%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 220 15% 15%;
+    --card: 38 18% 93%;
+    --card-foreground: 30 10% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 15%;
+    --popover: 40 20% 96%;
+    --popover-foreground: 30 10% 15%;
 
-    --primary: 35 85% 55%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 35 65% 48%;
+    --primary-foreground: 40 20% 96%;
 
-    --secondary: 36 15% 92%;
-    --secondary-foreground: 220 15% 20%;
+    --secondary: 35 12% 88%;
+    --secondary-foreground: 30 10% 25%;
 
-    --muted: 36 10% 93%;
-    --muted-foreground: 220 10% 46%;
+    --muted: 35 10% 90%;
+    --muted-foreground: 30 8% 50%;
 
-    --accent: 35 85% 55%;
-    --accent-foreground: 0 0% 100%;
+    --accent: 150 8% 42%;
+    --accent-foreground: 40 20% 96%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 36 15% 88%;
-    --input: 36 15% 88%;
-    --ring: 35 85% 55%;
+    --border: 35 15% 85%;
+    --input: 35 15% 85%;
+    --ring: 35 65% 48%;
 
-    --radius: 0.75rem;
+    --radius: 0.25rem;
 
-    --font-body: 'DM Sans', system-ui, sans-serif;
+    --font-display: 'Cormorant Garamond', serif;
+    --font-body: 'DM Sans', sans-serif;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -57,8 +58,15 @@
     @apply bg-background text-foreground;
     font-family: var(--font-body);
   }
+  h1, h2, h3 {
+    font-family: var(--font-display);
+  }
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+::selection {
+  background: hsl(35 65% 48% / 0.2);
 }
