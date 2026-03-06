@@ -125,7 +125,7 @@ const Index = () => {
             <img
               src={frame}
               alt=""
-              className="relative z-10 w-full h-full object-contain rotate-[-1deg] pointer-events-none"
+              className="relative z-10 w-full h-full object-contain rotate-[2deg] pointer-events-none"
             />
           </div>
           <h1 className="font-body text-5xl md:text-7xl font-medium text-foreground mb-4 leading-tight tracking-tight">
