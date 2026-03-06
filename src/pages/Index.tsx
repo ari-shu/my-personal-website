@@ -26,7 +26,7 @@ const projects = [
   title: "Cultural Diversity in the Era of Algorithmic Monoculture",
   description:
   "A brief description of your project — what it does, why it matters, and what technologies or methods you used.",
-  tags: ["research", "social infrastructure", "Design"],
+  tags: ["research", "social infrastructure"],
   link: "#"
 },
 {
