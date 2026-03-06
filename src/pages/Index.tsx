@@ -74,10 +74,10 @@ const Index = () => {
               </a>
             )}
             <a
-              href="#"
-              className="text-xs tracking-[0.15em] uppercase border border-foreground text-foreground px-4 py-2 hover:bg-foreground hover:text-background transition-all duration-500">
+
+              className="text-xs tracking-[0.15em] uppercase border border-foreground text-foreground px-4 py-2 hover:bg-foreground hover:text-background transition-all duration-500" href="https://trustworthyailab.substack.com/">
               
-              Resume
+              BLOG
             </a>
           </div>
         </div>
