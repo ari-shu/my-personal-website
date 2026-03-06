@@ -98,13 +98,6 @@ const Index = () => {
 
       {/* Hero */}
       <section className="min-h-screen flex flex-col items-center justify-center text-center px-8 pt-16 relative">
-        {/* Decorative: swan floating bottom-right */}
-        <FloatingImage
-          src={swan}
-          alt=""
-          className="absolute bottom-32 right-8 md:right-16 w-32 md:w-44"
-          delay={0.6}
-        />
         {/* Decorative: star top-left */}
         <FloatingImage
           src={star}
