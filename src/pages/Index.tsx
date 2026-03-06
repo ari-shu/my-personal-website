@@ -71,7 +71,7 @@ const Index = () => {
               BLOG
             </a>
             <div className="ml-auto text-muted-foreground flex-row flex items-center justify-start gap-[20px]">
-              <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors duration-500" aria-label="LinkedIn">
+              <a href="https://www.linkedin.com/in/ariella-shulman/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors duration-500" aria-label="LinkedIn">
                 <Linkedin className="w-4 h-4" />
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors duration-500" aria-label="GitHub">
