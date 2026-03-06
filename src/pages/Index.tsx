@@ -105,7 +105,7 @@ const Index = () => {
             <img src={headshot} alt="Headshot" className="w-full h-full object-cover" />
           </div>
 
-          <h1 className="font-display text-5xl md:text-7xl font-light text-foreground mb-4 leading-tight">
+          <h1 className="font-body text-5xl md:text-7xl font-medium text-foreground mb-4 leading-tight tracking-tight">
             ARIELLA SHULMAN 
           </h1>
           <p className="font-body text-base text-muted-foreground max-w-md mb-10 leading-relaxed">
