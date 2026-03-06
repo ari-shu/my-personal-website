@@ -79,13 +79,13 @@ const Index = () => {
             </a>
             </a>
             <div className="ml-auto text-muted-foreground flex-row flex items-center justify-start gap-[20px]">
-              <a href="#" className="hover:text-foreground transition-colors duration-500" aria-label="LinkedIn">
+              <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors duration-500" aria-label="LinkedIn">
                 <Linkedin className="w-4 h-4" />
               </a>
-              <a href="#" className="hover:text-foreground transition-colors duration-500" aria-label="GitHub">
+              <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors duration-500" aria-label="GitHub">
                 <Github className="w-4 h-4" />
               </a>
-              <a href="mailto:you@email.com" className="hover:text-foreground transition-colors duration-500" aria-label="Email">
+              <a href="mailto:you@email.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors duration-500" aria-label="Email">
                 <Mail className="w-4 h-4" />
               </a>
             </div>
