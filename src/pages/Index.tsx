@@ -150,22 +150,16 @@ const Index = () => {
             
             <div className="space-y-5 text-muted-foreground font-body text-base leading-relaxed">
               <p>
-                Write a paragraph about yourself here. Describe your research
-                interests, your current position, and link to your{" "}
-                <a href="#" className="text-foreground border-b border-foreground/30 hover:border-foreground transition-colors duration-500">currently, i am studying for an phil in ethics of ai, data & algorithms at the university of cambridge. i also conduct research in cambridge's trustworthy ai lab (trace) and contribute to the development of safety frameworks for ai tutors with eedi labs.
-
-                </a>{" "}
-                or{" "}
-                <a href="#" className="text-foreground border-b border-foreground/30 hover:border-foreground transition-colors duration-500">
-                  advisor
-                </a>.
+                by examining the deployment of ai in critical social infrastructure, i seek to understand how ai will change the moral and epistemic fabric of our society. my research spans philosophy, computer-human interaction, cognitive science, and policy.
               </p>
               <p>
-
-
+                currently, i am studying for an phil in ethics of ai, data & algorithms at the university of cambridge. i also conduct research in cambridge's trustworthy ai lab (trace) and i am working on safety frameworks for ai tutors with eedi labs.
               </p>
               <p>
-
+                previously, i studied philosophy and neuroethics at emory university in atlanta, ga. i have held positions at the legal aid society, where i fought unlawful evictions in nyc housing courts, and the democratic congressional campaign committee, where i led canvassing efforts in house district ny-11.
+              </p>
+              <p>
+                in my free time, i enjoy reading old books, throwing pottery, and playing chess.
               </p>
             </div>
 
