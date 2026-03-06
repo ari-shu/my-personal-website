@@ -25,7 +25,7 @@ const projects = [
 {
   title: "Cultural Diversity in the Era of Algorithmic Monoculture",
   description:
-  "A brief description of your project — what it does, why it matters, and what technologies or methods you used.",
+  "satellite dialogue at 2026 india ai impact summit investigating multi-stakeholder perspectives on institutional ai deployment. conducted interviews across industry, academia, and policy.",
   tags: ["research", "social infrastructure"],
   link: "#"
 },
