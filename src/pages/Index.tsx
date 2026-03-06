@@ -291,9 +291,9 @@ const Index = () => {
           <p className="text-xs text-muted-foreground tracking-wide">
             © {new Date().getFullYear()} Ariella Shulman
           </p>
-          <p className="text-xs text-muted-foreground tracking-wide font-display italic">
-            Made with care.
-          </p>
+          
+
+          
         </div>
       </footer>
     </main>);
