@@ -92,8 +92,8 @@ const Index = () => {
           className="flex flex-col items-center"
         >
           {/* Headshot placeholder */}
-          <div className="w-36 h-36 rounded-full bg-card border border-border flex items-center justify-center mb-10 overflow-hidden">
-            <User className="w-14 h-14 text-muted-foreground/30" />
+          <div className="w-36 h-44 rounded-[50%] bg-card border border-border overflow-hidden mb-10">
+            <img src={headshot} alt="Headshot" className="w-full h-full object-cover" />
           </div>
 
           <h1 className="font-display text-5xl md:text-7xl font-light text-foreground mb-4 leading-tight">
