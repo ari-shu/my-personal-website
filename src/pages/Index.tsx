@@ -7,14 +7,14 @@ const navItems = ["About", "Research", "Projects"];
 const publications = [
 {
   title: "second-hand ai",
-  authors: "Your Name, Co-Author Name",
+  authors: "Your Name, Co-Author Name" as React.ReactNode,
   venue: "Journal or Conference Name (2025)",
   tags: ["Topic 1", "Topic 2"],
   link: "#"
 },
 {
   title: "stylize, escalate, refuse: Epistemic Pluralism via institutional Orchestration Layers",
-  authors: "Ariella Shulman, Juan Pablo Partida, Kostadin Devedzhiev, Elaf Almahmoud, Jonnie Penn, Umang Bhatt",
+  authors: <><strong className="font-semibold text-foreground">Ariella Shulman</strong>, Juan Pablo Partida, Kostadin Devedzhiev, Elaf Almahmoud, Jonnie Penn, Umang Bhatt</>,
   venue: "under review, ACM Conference on Fairness, Accountability, and Transparency (2026)",
   tags: ["Topic 3", "Topic 1"],
   link: "#"
