@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Mail, Linkedin, Github, ChevronDown } from "lucide-react";
 import headshot from "@/assets/headshot.png";
+import frame from "@/assets/frame.png";
 import FloatingImage from "@/components/FloatingImage";
 
 // Decorative images
