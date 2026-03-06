@@ -6,7 +6,7 @@ const navItems = ["About", "Research", "Projects"];
 
 const publications = [
 {
-  title: "Your Publication Title Goes Here",
+  title: "second-hand ai",
   authors: "Your Name, Co-Author Name",
   venue: "Journal or Conference Name (2025)",
   tags: ["Topic 1", "Topic 2"],
