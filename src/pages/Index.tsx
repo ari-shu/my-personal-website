@@ -150,7 +150,7 @@ const Index = () => {
             
             <div className="space-y-5 text-muted-foreground font-body text-base leading-relaxed">
               <p>
-                i want to understand the way ai is deployed in social institutions, to identify where harms are being (re)produced and my research spans philosophy, computer-human interaction, cognitive science, and design.
+                by examining the deployment of ai in critical social infrastructure, i seek to understand how ai will change the moral and epistemic fabric of our society. my research spans philosophy, computer-human interaction, cognitive science, and policy.
               </p>
               <p>
                 currently, i am studying for an phil in ethics of ai, data & algorithms at the university of cambridge. i also conduct research in cambridge's trustworthy ai lab (trace) and i am working on safety frameworks for ai tutors with eedi labs.
