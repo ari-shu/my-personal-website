@@ -192,11 +192,8 @@ const Index = () => {
           </motion.div>
           <div className="lg:col-span-8 space-y-0">
             {publications.map((pub, i) =>
-            <motion.a
+            <motion.div
               key={i}
-              href={pub.link}
-              target="_blank"
-              rel="noopener noreferrer"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
@@ -219,7 +216,7 @@ const Index = () => {
                 </h3>
                 <p className="text-sm text-muted-foreground mb-1">{pub.authors}</p>
                 <p className="text-sm text-muted-foreground italic">{pub.venue}</p>
-              </motion.a>
+              </motion.div>
             )}
           </div>
         </div>
