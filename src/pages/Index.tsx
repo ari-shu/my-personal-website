@@ -200,7 +200,7 @@ const Index = () => {
       </div>
 
       {/* Publications */}
-      <section id="research" className="py-32 md:py-44 px-8 md:px-16 relative">
+      <section id="research" className="py-20 md:py-28 px-8 md:px-16 relative">
         {/* Decorative: tree floating right */}
         <FloatingImage
           src={tree}
