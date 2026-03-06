@@ -35,6 +35,12 @@ const projects = [
   "a grassroots initiative to broaden interdisciplinary engagement with the ai ethics community. organized by the exec team of the cambridge ai ethics society (i'm the co-vice pres!)",
   tags: ["community"],
   link: "https://www.instagram.com/cambridgeaiethics/"
+},
+{
+  title: "trustworthy ai substack",
+  description: "started a substack for the trace lab. subscribe for weekly reads.",
+  tags: ["blog", "community"],
+  link: "https://trustworthyailab.substack.com/"
 }];
 
 
