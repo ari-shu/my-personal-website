@@ -4,7 +4,7 @@ import headshot from "@/assets/headshot.png";
 import FloatingImage from "@/components/FloatingImage";
 
 // Decorative images
-import swan from "@/assets/subject-swan.png";
+
 import bowl from "@/assets/subject-bowl.png";
 import bottle from "@/assets/subject-bottle.png";
 import ocarina from "@/assets/subject-ocarina.png";
@@ -98,13 +98,6 @@ const Index = () => {
 
       {/* Hero */}
       <section className="min-h-screen flex flex-col items-center justify-center text-center px-8 pt-16 relative">
-        {/* Decorative: swan floating bottom-right */}
-        <FloatingImage
-          src={swan}
-          alt=""
-          className="absolute bottom-32 right-8 md:right-16 w-32 md:w-44"
-          delay={0.6}
-        />
         {/* Decorative: star top-left */}
         <FloatingImage
           src={star}
@@ -143,7 +136,7 @@ const Index = () => {
       </div>
 
       {/* About */}
-      <section id="about" className="py-32 md:py-44 px-8 md:px-16 relative">
+      <section id="about" className="py-20 md:py-28 px-8 md:px-16 relative">
         {/* Decorative: bottle floating far left */}
         <FloatingImage
           src={bottle}
@@ -207,7 +200,7 @@ const Index = () => {
       </div>
 
       {/* Publications */}
-      <section id="research" className="py-32 md:py-44 px-8 md:px-16 relative">
+      <section id="research" className="py-20 md:py-28 px-8 md:px-16 relative">
         {/* Decorative: tree floating right */}
         <FloatingImage
           src={tree}
@@ -267,7 +260,7 @@ const Index = () => {
       </div>
 
       {/* Projects */}
-      <section id="projects" className="py-32 md:py-44 px-8 md:px-16">
+      <section id="projects" className="py-20 md:py-28 px-8 md:px-16">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16">
           <motion.div
             className="lg:col-span-3"
