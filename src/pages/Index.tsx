@@ -113,11 +113,7 @@ const Index = () => {
           transition={{ duration: 1, ease: "easeOut" as const }}
           className="flex flex-col items-center">
           <div className="relative w-64 h-72 mb-10">
-            <div className="absolute inset-0 flex items-center justify-center">
-              <div className="w-[85%] h-[85%] rounded-[50%] overflow-hidden">
-                <img src={headshot} alt="Headshot" className="w-full h-full object-cover" />
-              </div>
-            </div>
+            <img src={headshot} alt="Headshot" className="absolute inset-[8%] rounded-[50%] object-cover z-0" />
             <img src={frame} alt="" className="relative z-10 w-full h-full object-contain pointer-events-none" />
           </div>
           <h1 className="font-body text-5xl md:text-7xl font-medium text-foreground mb-4 leading-tight tracking-tight">
