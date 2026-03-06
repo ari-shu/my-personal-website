@@ -174,7 +174,7 @@ const Index = () => {
                   
 
                 
-                  <p className="text-sm text-foreground">{item.value}</p>
+                  
                 </div>
               )}
             </div>
