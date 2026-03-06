@@ -219,7 +219,7 @@ const Index = () => {
                     </span>
                 )}
                 </div>
-                <h3 className="font-display text-xl md:text-2xl font-normal text-foreground group-hover:text-primary transition-colors duration-500 mb-2">
+                <h3 className="text-xl font-normal text-foreground group-hover:text-primary transition-colors duration-500 mb-2 text-left font-mono md:text-lg">
                   {pub.title}
                 </h3>
                 <p className="text-sm text-muted-foreground mb-1">{pub.authors}</p>
