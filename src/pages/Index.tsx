@@ -15,7 +15,7 @@ const publications = [
 {
   title: "stylize, escalate, refuse: Epistemic Pluralism via institutional Orchestration Layers",
   authors: "Ariella Shulman, Juan Pablo Partida, Kostadin Devedzhiev, Elaf Almahmoud, Jonnie Penn, Umang Bhatt",
-  venue: "Conference Proceedings (2024)",
+  venue: "under review, ACM Conference on Fairness, Accountability, and Transparency (2026)",
   tags: ["Topic 3", "Topic 1"],
   link: "#"
 }];
