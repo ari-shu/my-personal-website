@@ -4,7 +4,7 @@ import headshot from "@/assets/headshot.png";
 import FloatingImage from "@/components/FloatingImage";
 
 // Decorative images
-import swan from "@/assets/subject-swan.png";
+
 import bowl from "@/assets/subject-bowl.png";
 import bottle from "@/assets/subject-bottle.png";
 import ocarina from "@/assets/subject-ocarina.png";
