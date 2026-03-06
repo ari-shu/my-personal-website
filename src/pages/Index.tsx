@@ -34,7 +34,7 @@ const projects = [
   description:
   "a grassroots initiative to broaden interdisciplinary engagement with the ai ethics community. organized by the exec team of the cambridge ai ethics society (i'm the co-vice pres!)",
   tags: ["community"],
-  link: "#"
+  link: "https://www.instagram.com/cambridgeaiethics/"
 },
 {
   title: "Project Gamma",
