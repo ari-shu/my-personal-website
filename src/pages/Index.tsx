@@ -68,7 +68,7 @@ const Index = () => {
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
-              className="text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors duration-500">
+              className="text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors duration-500 font-body font-medium">
               
                 {item}
               </a>
