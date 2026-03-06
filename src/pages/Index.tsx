@@ -112,8 +112,21 @@ const Index = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" as const }}
           className="flex flex-col items-center">
-          <div className="w-64 h-72 rounded-[50%] bg-card border border-border overflow-hidden mb-10">
-            <img src={headshot} alt="Headshot" className="w-full h-full object-cover" />
+          <div className="relative w-64 h-80 mb-10 flex items-center justify-center">
+            {/* Headshot clipped to oval, positioned inside the frame */}
+            <div className="absolute inset-0 flex items-center justify-center">
+              <img
+                src={headshot}
+                alt="Headshot"
+                className="w-[70%] h-[78%] object-cover rounded-[50%] mt-[-2px]"
+              />
+            </div>
+            {/* Frame overlay */}
+            <img
+              src={frame}
+              alt=""
+              className="relative z-10 w-full h-full object-contain rotate-[-1deg] pointer-events-none"
+            />
           </div>
           <h1 className="font-body text-5xl md:text-7xl font-medium text-foreground mb-4 leading-tight tracking-tight">
             ARIELLA SHULMAN 
