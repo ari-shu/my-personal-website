@@ -74,7 +74,7 @@ const Index = () => {
               </a>
             )}
             <a
-              className="text-xs tracking-[0.15em] uppercase border border-foreground text-foreground px-4 py-2 hover:bg-foreground hover:text-background transition-all duration-500" href="https://trustworthyailab.substack.com/">
+              className="text-xs tracking-[0.15em] uppercase border border-foreground text-foreground px-4 py-2 hover:bg-foreground hover:text-background transition-all duration-500 font-body font-medium" href="https://trustworthyailab.substack.com/">
               BLOG
             </a>
             <div className="ml-auto text-muted-foreground flex-row flex items-center justify-start gap-[20px]">
