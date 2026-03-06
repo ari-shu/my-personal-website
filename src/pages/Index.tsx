@@ -253,6 +253,8 @@ const Index = () => {
             <motion.a
               key={i}
               href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true }}
