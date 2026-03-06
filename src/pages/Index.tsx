@@ -122,7 +122,7 @@ const Index = () => {
           </div>
 
 
-          <p className="text-sm text-muted-foreground font-body">you@email.com</p>
+          
         </motion.div>
 
         <a href="#about" className="absolute bottom-10">
