@@ -127,17 +127,6 @@ const Index = () => {
             </a>
           </div>
 
-          <div className="flex items-center gap-5 text-muted-foreground mb-6">
-            <a href="#" className="hover:text-foreground transition-colors duration-500" aria-label="LinkedIn">
-              <Linkedin className="w-4 h-4" />
-            </a>
-            <a href="#" className="hover:text-foreground transition-colors duration-500" aria-label="GitHub">
-              <Github className="w-4 h-4" />
-            </a>
-            <a href="mailto:you@email.com" className="hover:text-foreground transition-colors duration-500" aria-label="Email">
-              <Mail className="w-4 h-4" />
-            </a>
-          </div>
 
           <p className="text-sm text-muted-foreground font-body">you@email.com</p>
         </motion.div>
