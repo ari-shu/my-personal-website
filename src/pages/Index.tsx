@@ -1,6 +1,19 @@
 import { motion } from "framer-motion";
 import { Mail, Linkedin, Github, ChevronDown } from "lucide-react";
 import headshot from "@/assets/headshot.png";
+import FloatingImage from "@/components/FloatingImage";
+
+// Decorative images
+import swan from "@/assets/subject-swan.png";
+import bowl from "@/assets/subject-bowl.png";
+import bottle from "@/assets/subject-bottle.png";
+import ocarina from "@/assets/subject-ocarina.png";
+import vase from "@/assets/subject-vase.png";
+import star from "@/assets/subject-star.png";
+import tree from "@/assets/subject-tree.png";
+import mask from "@/assets/subject-mask.png";
+import leaf from "@/assets/subject-leaf.png";
+import moons from "@/assets/subject-moons.png";
 
 const navItems = ["About", "Research", "Projects"];
 
@@ -10,16 +23,13 @@ const publications = [
   authors: "Your Name, Co-Author Name" as React.ReactNode,
   venue: "Journal or Conference Name (2025)",
   tags: ["ai", "sociology"],
-  link: "#"
 },
 {
   title: "stylize, escalate, refuse: Epistemic Pluralism via institutional Orchestration Layers",
   authors: <><strong className="font-semibold text-foreground">ariella shulman</strong>, kostadin devedzhiev, juan pablo partida, elaf almamoud, umang bhatt</>,
   venue: "under review, ACM Conference on Fairness, Accountability, and Transparency (2026)",
   tags: ["ai", "epistemology"],
-  link: "#"
 }];
-
 
 const projects = [
 {
@@ -43,7 +53,6 @@ const projects = [
   link: "https://trustworthyailab.substack.com/"
 }];
 
-
 const fade = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({
@@ -55,20 +64,16 @@ const fade = {
 
 const Index = () => {
   return (
-    <main className="bg-background min-h-screen">
-      {/* Nav — minimal, left-aligned name, right links */}
+    <main className="bg-background min-h-screen overflow-x-hidden">
+      {/* Nav */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm">
         <div className="max-w-6xl mx-auto px-8 md:px-16 h-16 flex items-center justify-center">
-          
-
-          
           <div className="flex items-center gap-8">
             {navItems.map((item) =>
             <a
               key={item}
               href={`#${item.toLowerCase()}`}
               className="text-xs tracking-[0.2em] uppercase text-muted-foreground hover:text-foreground transition-colors duration-500 font-body font-medium">
-              
                 {item}
               </a>
             )}
@@ -91,29 +96,37 @@ const Index = () => {
         </div>
       </nav>
 
-      {/* Hero — centered, intimate, generous space */}
-      <section className="min-h-screen flex flex-col items-center justify-center text-center px-8 pt-16">
+      {/* Hero */}
+      <section className="min-h-screen flex flex-col items-center justify-center text-center px-8 pt-16 relative">
+        {/* Decorative: swan floating bottom-right */}
+        <FloatingImage
+          src={swan}
+          alt=""
+          className="absolute bottom-32 right-8 md:right-16 w-32 md:w-44"
+          delay={0.6}
+        />
+        {/* Decorative: star top-left */}
+        <FloatingImage
+          src={star}
+          alt=""
+          className="absolute top-28 left-8 md:left-20 w-14 md:w-20"
+          delay={0.8}
+        />
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" as const }}
           className="flex flex-col items-center">
-          
-          {/* Headshot placeholder */}
           <div className="w-64 h-72 rounded-[50%] bg-card border border-border overflow-hidden mb-10">
             <img src={headshot} alt="Headshot" className="w-full h-full object-cover" />
           </div>
-
           <h1 className="font-body text-5xl md:text-7xl font-medium text-foreground mb-4 leading-tight tracking-tight">
             ARIELLA SHULMAN 
           </h1>
           <p className="text-muted-foreground max-w-md mb-10 leading-relaxed text-2xl font-mono">
             ai ethics & governance       
           </p>
-
-
-
-          
         </motion.div>
 
         <a href="#about" className="absolute bottom-10">
@@ -121,8 +134,24 @@ const Index = () => {
         </a>
       </section>
 
-      {/* About — asymmetric grid with generous whitespace */}
-      <section id="about" className="py-32 md:py-44 px-8 md:px-16">
+      {/* Decorative strip between Hero and About */}
+      <div className="relative max-w-6xl mx-auto px-8 md:px-16">
+        <div className="flex items-end justify-end gap-8 py-8">
+          <FloatingImage src={ocarina} alt="" className="w-16 md:w-24" delay={0.1} />
+          <FloatingImage src={leaf} alt="" className="w-20 md:w-28" delay={0.3} />
+        </div>
+      </div>
+
+      {/* About */}
+      <section id="about" className="py-32 md:py-44 px-8 md:px-16 relative">
+        {/* Decorative: bottle floating far left */}
+        <FloatingImage
+          src={bottle}
+          alt=""
+          className="hidden lg:block absolute top-20 -left-4 w-28"
+          delay={0.4}
+        />
+
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16">
           <motion.div
             className="lg:col-span-3"
@@ -131,7 +160,6 @@ const Index = () => {
             viewport={{ once: true, margin: "-80px" }}
             variants={fade}
             custom={0}>
-            
             <p className="text-sm tracking-[0.3em] uppercase text-foreground font-body font-medium">
               About
             </p>
@@ -143,26 +171,19 @@ const Index = () => {
             viewport={{ once: true, margin: "-80px" }}
             variants={fade}
             custom={1}>
-            
-            
-
-            
             <div className="space-y-5 text-muted-foreground font-body text-base leading-relaxed">
               <p>
                 by examining the deployment of ai in critical social infrastructure, i seek to understand how ai will change the moral and epistemic fabric of our society. my research spans philosophy, computer-human interaction, cognitive science, and policy.
               </p>
               <p>currently, i am studying for an <a href="https://www.lcfi.ac.uk/education/mphil" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground transition-colors duration-500">mphil in ethics of ai, data &amp; algorithms</a> at the university of cambridge. i also conduct research in cambridge's <a href="https://trace-lab.ai/" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground transition-colors duration-500">trustworthy ai lab (trace)</a> and i am working on developing safety frameworks for ai tutors with <a href="https://eedi-labs-67qwnm2lxu4blqi5.webflow.io/" target="_blank" rel="noopener noreferrer" className="underline hover:text-foreground transition-colors duration-500">eedi labs</a>.
-
               </p>
               <p>
                 previously, i studied philosophy and neuroethics at emory university in atlanta, ga. i have held positions at the legal aid society, where i fought unlawful evictions in nyc housing courts, and the democratic congressional campaign committee, where i led canvassing efforts in house district ny-11.
               </p>
               <p>in my free time, i enjoy reading books, throwing pottery, and playing chess.
-
               </p>
             </div>
 
-            {/* Contact details row */}
             <div className="mt-14 pt-8 border-t border-border grid grid-cols-2 md:grid-cols-3 gap-8">
               {[
               { label: "Email", value: "you@email.com" },
@@ -170,10 +191,6 @@ const Index = () => {
               { label: "Scholar", value: "Google Scholar →" }].
               map((item) =>
               <div key={item.label}>
-                  
-
-                
-                  
                 </div>
               )}
             </div>
@@ -181,8 +198,24 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Publications — cards with tags */}
-      <section id="research" className="py-32 md:py-44 px-8 md:px-16">
+      {/* Decorative strip between About and Publications */}
+      <div className="relative max-w-6xl mx-auto px-8 md:px-16">
+        <div className="flex items-center justify-between py-6">
+          <FloatingImage src={bowl} alt="" className="w-28 md:w-40" delay={0.1} />
+          <FloatingImage src={mask} alt="" className="w-14 md:w-20 ml-auto" delay={0.3} />
+        </div>
+      </div>
+
+      {/* Publications */}
+      <section id="research" className="py-32 md:py-44 px-8 md:px-16 relative">
+        {/* Decorative: tree floating right */}
+        <FloatingImage
+          src={tree}
+          alt=""
+          className="hidden lg:block absolute bottom-16 -right-2 w-20"
+          delay={0.5}
+        />
+
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16">
           <motion.div
             className="lg:col-span-3"
@@ -191,7 +224,6 @@ const Index = () => {
             viewport={{ once: true, margin: "-80px" }}
             variants={fade}
             custom={0}>
-            
             <p className="text-sm tracking-[0.3em] uppercase text-foreground font-body font-medium">
               Publications
             </p>
@@ -206,13 +238,11 @@ const Index = () => {
               variants={fade}
               custom={i + 1}
               className="block py-8 border-b border-border group">
-              
                 <div className="flex flex-wrap gap-2 mb-3">
                   {pub.tags.map((tag) =>
                 <span
                   key={tag}
                   className="text-[10px] tracking-[0.15em] uppercase font-medium bg-card text-muted-foreground px-3 py-1 rounded-full">
-                  
                       {tag}
                     </span>
                 )}
@@ -228,7 +258,15 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Projects — cards */}
+      {/* Decorative strip between Publications and Projects */}
+      <div className="relative max-w-6xl mx-auto px-8 md:px-16">
+        <div className="flex items-center justify-center gap-12 py-8">
+          <FloatingImage src={vase} alt="" className="w-20 md:w-28" delay={0.1} />
+          <FloatingImage src={moons} alt="" className="w-10 md:w-14" delay={0.35} />
+        </div>
+      </div>
+
+      {/* Projects */}
       <section id="projects" className="py-32 md:py-44 px-8 md:px-16">
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16">
           <motion.div
@@ -238,7 +276,6 @@ const Index = () => {
             viewport={{ once: true, margin: "-80px" }}
             variants={fade}
             custom={0}>
-            
             <p className="text-sm tracking-[0.3em] uppercase text-foreground font-body font-medium">
               Projects
             </p>
@@ -256,13 +293,11 @@ const Index = () => {
               variants={fade}
               custom={i + 1}
               className="block bg-card border border-border p-8 group hover:shadow-lg transition-shadow duration-500">
-              
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) =>
                 <span
                   key={tag}
                   className="text-[10px] tracking-[0.15em] uppercase font-medium bg-background text-muted-foreground px-3 py-1 rounded-full">
-                  
                       {tag}
                     </span>
                 )}
@@ -285,13 +320,9 @@ const Index = () => {
           <p className="text-xs text-muted-foreground tracking-wide">
             © {new Date().getFullYear()} Ariella Shulman
           </p>
-          
-
-          
         </div>
       </footer>
     </main>);
-
 };
 
 export default Index;
