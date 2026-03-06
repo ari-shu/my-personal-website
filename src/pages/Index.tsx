@@ -32,7 +32,7 @@ const projects = [
 {
   title: "ai ethics is for everyone",
   description:
-  "a grassroots initiative to broaden interdisciplinary engagement with the ai ethics community. designed by the exec team of the cambridge ai ethics society.",
+  "a grassroots initiative to broaden interdisciplinary engagement with the ai ethics community. organized by the exec team of the cambridge ai ethics society (i'm the co-vice pres!)",
   tags: ["Python", "ML", "Research"],
   link: "#"
 },
