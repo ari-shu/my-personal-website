@@ -13,7 +13,7 @@ const publications = [
   link: "#"
 },
 {
-  title: "Another Publication Title",
+  title: "stylize, escalate, refuse: Epistemic Pluralism via institutional Orchestration Layers",
   authors: "Co-Author Name, Your Name",
   venue: "Conference Proceedings (2024)",
   tags: ["Topic 3", "Topic 1"],
