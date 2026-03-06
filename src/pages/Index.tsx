@@ -150,15 +150,7 @@ const Index = () => {
             
             <div className="space-y-5 text-muted-foreground font-body text-base leading-relaxed">
               <p>
-                Write a paragraph about yourself here. Describe your research
-                interests, your current position, and link to your{" "}
-                <a href="#" className="text-foreground border-b border-foreground/30 hover:border-foreground transition-colors duration-500">
-                  lab
-                </a>{" "}
-                or{" "}
-                <a href="#" className="text-foreground border-b border-foreground/30 hover:border-foreground transition-colors duration-500">
-                  advisor
-                </a>.
+                in my free time, i enjoy reading old books, throwing pottery, and playing chess.
               </p>
               <p>
 
