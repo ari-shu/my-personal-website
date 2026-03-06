@@ -133,7 +133,7 @@ const Index = () => {
             variants={fade}
             custom={0}>
             
-            <p className="text-xs tracking-[0.3em] uppercase text-muted-foreground font-body font-medium">
+            <p className="text-xs tracking-[0.3em] uppercase font-body font-medium text-secondary-foreground">
               About
             </p>
           </motion.div>
