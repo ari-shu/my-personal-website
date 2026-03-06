@@ -101,7 +101,7 @@ const Index = () => {
           className="flex flex-col items-center">
           
           {/* Headshot placeholder */}
-          <div className="w-36 h-44 rounded-[50%] bg-card border border-border overflow-hidden mb-10">
+          <div className="w-48 h-56 rounded-[50%] bg-card border border-border overflow-hidden mb-10">
             <img src={headshot} alt="Headshot" className="w-full h-full object-cover" />
           </div>
 
