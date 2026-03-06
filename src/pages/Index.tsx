@@ -74,7 +74,7 @@ const Index = () => {
               <a href="https://www.linkedin.com/in/ariella-shulman/" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors duration-500" aria-label="LinkedIn">
                 <Linkedin className="w-4 h-4" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors duration-500" aria-label="GitHub">
+              <a href="https://github.com/ari-shu" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors duration-500" aria-label="GitHub">
                 <Github className="w-4 h-4" />
               </a>
               <a href="mailto:you@email.com" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors duration-500" aria-label="Email">
