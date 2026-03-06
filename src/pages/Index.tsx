@@ -262,13 +262,13 @@ const Index = () => {
               className="block bg-card border border-border p-8 group hover:shadow-lg transition-shadow duration-500">
               
                 <div className="flex flex-wrap gap-2 mb-4">
-                  {project.tags.map((tag) =>
-                <span
-                  key={tag}
-                  className="text-[10px] tracking-[0.15em] uppercase font-medium bg-background text-muted-foreground px-3 py-1 rounded-full">
-                  
-                      {tag}
-                    </span>
+                  {project.tags.map((tag) => {}
+
+
+
+
+
+
                 )}
                 </div>
                 <h3 className="text-xl font-normal text-foreground group-hover:text-primary transition-colors duration-500 mb-3 text-left font-mono md:text-lg">
