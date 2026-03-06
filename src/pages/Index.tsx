@@ -77,7 +77,6 @@ const Index = () => {
               className="text-xs tracking-[0.15em] uppercase border border-foreground text-foreground px-4 py-2 hover:bg-foreground hover:text-background transition-all duration-500 font-body font-medium" href="https://trustworthyailab.substack.com/" target="_blank" rel="noopener noreferrer">
               BLOG
             </a>
-            </a>
             <div className="ml-auto text-muted-foreground flex-row flex items-center justify-start gap-[20px]">
               <a href="#" target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors duration-500" aria-label="LinkedIn">
                 <Linkedin className="w-4 h-4" />
