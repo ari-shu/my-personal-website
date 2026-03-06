@@ -267,7 +267,7 @@ const Index = () => {
                     </span>
                 )}
                 </div>
-                <h3 className="font-display text-2xl md:text-3xl font-light text-foreground group-hover:text-primary transition-colors duration-500 mb-3">
+                <h3 className="text-xl font-normal text-foreground group-hover:text-primary transition-colors duration-500 mb-3 text-left font-mono md:text-lg">
                   {project.title}
                 </h3>
                 <p className="text-sm text-muted-foreground leading-relaxed">
