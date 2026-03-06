@@ -102,7 +102,7 @@ const Index = () => {
         <FloatingImage
           src={swan}
           alt=""
-          className="absolute bottom-32 right-8 md:right-16 w-32 md:w-44"
+          className="absolute bottom-32 -right-4 md:-right-8 w-32 md:w-44"
           delay={0.6}
         />
         {/* Decorative: star top-left */}
