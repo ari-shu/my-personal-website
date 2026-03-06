@@ -152,7 +152,7 @@ const Index = () => {
               <p>
                 by examining the deployment of ai in critical social infrastructure, i seek to understand how ai will change the moral and epistemic fabric of our society. my research spans philosophy, computer-human interaction, cognitive science, and policy.
               </p>
-              <p>currently, i am studying for an mphil in ethics of ai, data & algorithms at the university of cambridge. i also conduct research in cambridge's trustworthy ai lab (trace) and i am working on safety frameworks for ai tutors with eedi labs.
+              <p>currently, i am studying for an mphil in ethics of ai, data & algorithms at the university of cambridge. i also conduct research in cambridge's trustworthy ai lab (trace) and i am working on developing safety frameworks for ai tutors with eedi labs.
 
               </p>
               <p>
