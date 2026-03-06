@@ -27,7 +27,7 @@ const projects = [
   description:
   "satellite dialogue at 2026 india ai impact summit investigating multi-stakeholder perspectives on institutional ai deployment. conducted interviews across industry, academia, and policy.",
   tags: ["research", "social infrastructure"],
-  link: "#"
+  link: "https://www.linkedin.com/posts/ariella-shulman_what-an-incredible-week-spent-in-new-delhi-activity-7431092053796704256-uEu4?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFBSMkBLr7r_waK211KUvrLiidLJ49LBYE"
 },
 {
   title: "ai ethics is for everyone",
