@@ -112,14 +112,6 @@ const Index = () => {
             AI ETHICS & GOVERNANCE    
           </p>
 
-          <div className="flex gap-4 mb-8">
-            <a
-              href="#research"
-              className="text-xs tracking-[0.15em] uppercase bg-foreground text-background px-6 py-3 hover:opacity-90 transition-opacity">
-              
-              View My Work
-            </a>
-          </div>
 
 
           
