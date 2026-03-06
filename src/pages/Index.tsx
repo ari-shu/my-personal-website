@@ -171,9 +171,9 @@ const Index = () => {
               { label: "Scholar", value: "Google Scholar →" }].
               map((item) =>
               <div key={item.label}>
-                  <p className="text-xs tracking-[0.2em] uppercase text-muted-foreground mb-1">
-                    {item.label}
-                  </p>
+                  
+
+                
                   <p className="text-sm text-foreground">{item.value}</p>
                 </div>
               )}
