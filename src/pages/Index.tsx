@@ -118,7 +118,7 @@ const Index = () => {
               <img
                 src={headshot}
                 alt="Headshot"
-                className="w-[70%] h-[78%] object-cover rounded-[50%] mt-[-2px]"
+                className="w-[82%] h-[88%] object-cover rounded-[50%]"
               />
             </div>
             {/* Frame overlay */}
