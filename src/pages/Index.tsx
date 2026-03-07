@@ -127,7 +127,7 @@ const Index = () => {
         </motion.div>
 
         {/* Decorative: ocarina + leaf peeking at bottom */}
-        <div className="absolute bottom-0 right-8 md:right-16 flex items-end gap-8">
+        <div className="absolute -bottom-12 right-8 md:right-16 flex items-end gap-8">
           <FloatingImage src={ocarina} alt="" className="w-16 md:w-24" delay={0.1} />
           <FloatingImage src={leaf} alt="" className="w-20 md:w-28" delay={0.3} />
         </div>
