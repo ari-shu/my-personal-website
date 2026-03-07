@@ -139,13 +139,6 @@ const Index = () => {
 
       {/* About */}
       <section id="about" className="py-20 md:py-28 px-8 md:px-16 relative">
-        {/* Decorative: bottle floating far left */}
-        <FloatingImage
-          src={bottle}
-          alt=""
-          className="hidden lg:block absolute top-20 -left-4 w-28"
-          delay={0.4}
-        />
 
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16">
           <motion.div
@@ -310,7 +303,13 @@ const Index = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-16 px-8 md:px-16 border-t border-border">
+      <footer className="py-16 px-8 md:px-16 border-t border-border relative">
+        <FloatingImage
+          src={bottle}
+          alt=""
+          className="hidden lg:block absolute -top-20 right-12 w-24"
+          delay={0.3}
+        />
         <div className="max-w-6xl mx-auto flex-col text-center gap-4 flex items-center justify-center">
           <p className="text-xs text-muted-foreground tracking-wide">
             © {new Date().getFullYear()} Ariella Shulman
