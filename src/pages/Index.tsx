@@ -21,7 +21,7 @@ const publications = [
 {
   title: "second-hand ai",
   authors: <>bernardo villegas, katherine collins, Ilia Sucholutsky, <strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt</> as React.ReactNode,
-  venue: "Journal or Conference Name (2025)",
+  venue: "nature human behavior (2026)",
   tags: ["ai", "sociology"],
 },
 {
