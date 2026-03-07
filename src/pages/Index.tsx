@@ -111,11 +111,11 @@ const Index = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" as const }}
           className="flex flex-col items-center">
-          <div className="relative w-64 h-80 mb-10 flex items-center justify-center">
+          <div className="relative w-72 mb-10 flex items-center justify-center">
             <img
               src={portrait}
               alt="Ariella Shulman"
-              className="w-full h-full object-cover"
+              className="w-full h-auto"
             />
           </div>
           <h1 className="font-body text-5xl md:text-7xl font-medium text-foreground mb-4 leading-tight tracking-tight">
