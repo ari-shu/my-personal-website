@@ -307,7 +307,7 @@ const Index = () => {
         <FloatingImage
           src={bottle}
           alt=""
-          className="hidden lg:block absolute -top-20 right-12 w-24"
+          className="hidden lg:block absolute -top-20 left-12 w-24"
           delay={0.3}
         />
         <div className="max-w-6xl mx-auto flex-col text-center gap-4 flex items-center justify-center">
