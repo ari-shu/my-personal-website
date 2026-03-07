@@ -139,13 +139,6 @@ const Index = () => {
 
       {/* About */}
       <section id="about" className="py-20 md:py-28 px-8 md:px-16 relative">
-        {/* Decorative: bottle floating far left */}
-        <FloatingImage
-          src={bottle}
-          alt=""
-          className="hidden lg:block absolute top-20 -left-4 w-28"
-          delay={0.4}
-        />
 
         <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16">
           <motion.div
