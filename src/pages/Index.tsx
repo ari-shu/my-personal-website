@@ -304,12 +304,6 @@ const Index = () => {
 
       {/* Footer */}
       <footer className="py-16 px-8 md:px-16 border-t border-border relative">
-        <FloatingImage
-          src={bottle}
-          alt=""
-          className="hidden lg:block absolute -top-20 -left-8 w-24"
-          delay={0.3}
-        />
         <div className="max-w-6xl mx-auto flex-col text-center gap-4 flex items-center justify-center">
           <p className="text-xs text-muted-foreground tracking-wide">
             © {new Date().getFullYear()} Ariella Shulman
