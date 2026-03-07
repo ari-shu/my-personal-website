@@ -20,7 +20,7 @@ const navItems = ["About", "Research", "Projects"];
 const publications = [
 {
   title: "second-hand ai",
-  authors: "Your Name, Co-Author Name" as React.ReactNode,
+  authors: <>bernardo villegas, katherine collins, Ilia Sucholutsky, <strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt</> as React.ReactNode,
   venue: "Journal or Conference Name (2025)",
   tags: ["ai", "sociology"],
 },
