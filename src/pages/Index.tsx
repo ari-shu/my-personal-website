@@ -126,18 +126,16 @@ const Index = () => {
           </p>
         </motion.div>
 
+        {/* Decorative: ocarina + leaf peeking at bottom */}
+        <div className="absolute bottom-0 right-8 md:right-16 flex items-end gap-8">
+          <FloatingImage src={ocarina} alt="" className="w-16 md:w-24" delay={0.1} />
+          <FloatingImage src={leaf} alt="" className="w-20 md:w-28" delay={0.3} />
+        </div>
+
         <a href="#about" className="absolute bottom-10">
           <ChevronDown className="w-5 h-5 text-muted-foreground/50 animate-bounce" />
         </a>
       </section>
-
-      {/* Decorative strip between Hero and About */}
-      <div className="relative max-w-6xl mx-auto px-8 md:px-16">
-        <div className="flex items-end justify-end gap-8 py-8">
-          <FloatingImage src={ocarina} alt="" className="w-16 md:w-24" delay={0.1} />
-          <FloatingImage src={leaf} alt="" className="w-20 md:w-28" delay={0.3} />
-        </div>
-      </div>
 
       {/* About */}
       <section id="about" className="py-20 md:py-28 px-8 md:px-16 relative">
