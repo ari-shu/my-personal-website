@@ -6,7 +6,7 @@ import FloatingImage from "@/components/FloatingImage";
 // Decorative images
 
 import bowl from "@/assets/subject-bowl.png";
-import bottle from "@/assets/subject-bottle.png";
+
 import ocarina from "@/assets/subject-ocarina.png";
 import vase from "@/assets/subject-vase.png";
 import star from "@/assets/subject-star.png";
