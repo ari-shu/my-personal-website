@@ -21,13 +21,13 @@ const publications = [
 {
   title: "second-hand ai",
   authors: <>bernardo villegas, katherine collins, Ilia Sucholutsky, <strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt</> as React.ReactNode,
-  venue: "nature human behavior (2026)",
+  venue: "[forthcoming]",
   tags: ["ai", "sociology"],
 },
 {
   title: "stylize, escalate, refuse: Epistemic Pluralism via institutional Orchestration Layers",
-  authors: <><strong className="font-semibold text-foreground">ariella shulman</strong>, kostadin devedzhiev, juan pablo partida, elaf almamoud, umang bhatt</>,
-  venue: "under review, ACM Conference on Fairness, Accountability, and Transparency (2026)",
+  authors: <><strong className="font-semibold text-foreground">ariella shulman</strong>, kostadin devedzhiev, umang bhatt</>,
+  venue: "under review, acm facct (2026)",
   tags: ["ai", "epistemology"],
 }];
 
