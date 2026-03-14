@@ -27,7 +27,7 @@ const publications = [
 {
   title: "stylize, escalate, refuse: Epistemic Pluralism via institutional Orchestration Layers",
   authors: <><strong className="font-semibold text-foreground">ariella shulman</strong>, kostadin devedzhiev, umang bhatt</>,
-  venue: "under review, acm facct (2026)",
+  venue: "[under review @ acm facct]",
   tags: ["ai", "epistemology"],
 }];
 
