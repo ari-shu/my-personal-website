@@ -49,7 +49,7 @@ const publications = [
     tags: ["exteralities"],
   },
   {
-    title: '"productive failure as a guiding framework for ai systems in education',
+    title: '"productive failure as a guiding framework for ai systems in education"',
     authors: (
       <>
         <strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt
