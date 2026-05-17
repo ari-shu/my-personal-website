@@ -129,37 +129,49 @@ const Index = () => {
                 href="https://www.linkedin.com/in/ariella-shulman/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-foreground transition-colors duration-500"
+                className="group relative hover:text-foreground transition-colors duration-500"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-4 h-4" />
+                <span className="absolute left-1/2 -translate-x-1/2 -bottom-7 text-[10px] tracking-[0.15em] uppercase text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none">
+                  linkedin
+                </span>
               </a>
               <a
                 href="https://github.com/ari-shu"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-foreground transition-colors duration-500"
+                className="group relative hover:text-foreground transition-colors duration-500"
                 aria-label="GitHub"
               >
                 <Github className="w-4 h-4" />
+                <span className="absolute left-1/2 -translate-x-1/2 -bottom-7 text-[10px] tracking-[0.15em] uppercase text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none">
+                  github
+                </span>
               </a>
               <a
                 href="mailto:as3732@cam.ac.uk"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-foreground transition-colors duration-500"
+                className="group relative hover:text-foreground transition-colors duration-500"
                 aria-label="Email"
               >
                 <Mail className="w-4 h-4" />
+                <span className="absolute left-1/2 -translate-x-1/2 -bottom-7 text-[10px] tracking-[0.15em] uppercase text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none">
+                  email
+                </span>
               </a>
               <a
                 href="https://www.dropbox.com/scl/fi/nk3x7z0afoh80jisc9kin/Ariella-Shulman-Resume.pdf?rlkey=sehqsdvpwhj17qjk6gqcqtlqk&st=f1c28ky3&dl=0"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-foreground transition-colors duration-500"
+                className="group relative hover:text-foreground transition-colors duration-500"
                 aria-label="Download CV"
               >
                 <FileDown className="w-4 h-4" />
+                <span className="absolute left-1/2 -translate-x-1/2 -bottom-7 text-[10px] tracking-[0.15em] uppercase text-muted-foreground opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap pointer-events-none">
+                  cv
+                </span>
               </a>
             </div>
           </div>
