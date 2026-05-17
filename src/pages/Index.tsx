@@ -19,19 +19,52 @@ const navItems = ["About", "Research", "Projects"];
 
 const publications = [
   {
-    title: '"we need to express our own values": stylization capacity across institutional deployments of large language models',
-    authors: <><strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt</>,
-    tags: ["stylization", "epistemic pluralism"],
+    title:
+      '"we need to express our own values": stylization capacity across institutional deployments of large language models',
+    authors: (
+      <>
+        <strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt
+      </>
+    ),
+    tags: ["stylization"],
   },
   {
-    title: "stylize, escalate, refuse: epistemic pluralism via institution-specific orchestration layers",
-    authors: <><strong className="font-semibold text-foreground">ariella shulman</strong>, kostadin devedzhiev, elaf almahmoud, umang bhatt</>,
+    title: "epistemic pluralism via institution-specific orchestration layers",
+    authors: (
+      <>
+        <strong className="font-semibold text-foreground">ariella shulman</strong>, kostadin devedzhiev, elaf almahmoud,
+        umang bhatt
+      </>
+    ),
     tags: ["stylization", "tools"],
   },
   {
     title: "secondhand ai",
-    authors: <>bernardo villegas moreno, katherine collins, <strong className="font-semibold text-foreground">ariella shulman</strong>, ilia sucholutsky, umang bhatt</>,
+    authors: (
+      <>
+        bernardo villegas moreno, katherine collins,{" "}
+        <strong className="font-semibold text-foreground">ariella shulman</strong>, ilia sucholutsky, umang bhatt
+      </>
+    ),
     tags: ["exteralities"],
+  },
+  {
+    title: '"productive failure as a guiding framework for ai systems in education',
+    authors: (
+      <>
+        <strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt
+      </>
+    ),
+    tags: ["education"],
+  },
+  {
+    title: '"ethics of ai-assisted learning: a deweyan analysis',
+    authors: (
+      <>
+        <strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt
+      </>
+    ),
+    tags: ["education"],
   },
 ];
 
