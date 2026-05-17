@@ -20,7 +20,7 @@ const navItems = ["About", "Research", "Projects"];
 const working papers = [
   {
     title:
-      '"we need to express our own values": stylization capacity across institutional deployments of large language models',
+      'we need to express our own values: stylization capacity across institutional deployments of large language models',
     authors: (
       <>
         <strong className="font-semibold text-foreground">ariella shulman</strong>, umang bhatt
