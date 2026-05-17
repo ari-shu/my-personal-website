@@ -216,9 +216,9 @@ const Index = () => {
                 .
               </p>
               <p>
-                previously, i studied philosophy and neuroethics at emory university in atlanta, ga. i have held
-                positions at the legal aid society, where i fought unlawful evictions in nyc housing courts, and the
-                democratic congressional campaign committee, where i led canvassing efforts in house district ny-11.
+                previously, i studied philosophy and neuroethics at emory university in atlanta, ga. i have interned at
+                the legal aid society, where i fought unlawful evictions in nyc housing courts, and the democratic
+                congressional campaign committee, where i led canvassing efforts in house district ny-11.
               </p>
             </div>
 
