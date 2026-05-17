@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, Linkedin, Github, ChevronDown } from "lucide-react";
+import { Mail, Linkedin, Github, ChevronDown, FileDown } from "lucide-react";
 import portrait from "@/assets/portrait.png";
 import FloatingImage from "@/components/FloatingImage";
 
@@ -151,6 +151,15 @@ const Index = () => {
                 aria-label="Email"
               >
                 <Mail className="w-4 h-4" />
+              </a>
+              <a
+                href="https://www.dropbox.com/scl/fi/nk3x7z0afoh80jisc9kin/Ariella-Shulman-Resume.pdf?rlkey=sehqsdvpwhj17qjk6gqcqtlqk&st=f1c28ky3&dl=0"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-foreground transition-colors duration-500"
+                aria-label="Download CV"
+              >
+                <FileDown className="w-4 h-4" />
               </a>
             </div>
           </div>
